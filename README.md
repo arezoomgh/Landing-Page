@@ -1,2 +1,2 @@
 # Landing-Page
-A simple css landing page
+First CSS landing page for an art gallery
