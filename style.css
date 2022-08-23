@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+	font-family: Cursive ,Roboto, sans-serif;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	background-color: #EFF4F8;
+}
+
+ul{
+	list-style: none;
+	gap: 16px;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	gap: 52px;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 16px;
+	flex-direction: column;
+	background-image: url(./images/alina-grubnyak-IsxaFsXi2rs-unsplash.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 800px;
+}
+
+.left-links{
+	display: flex;
+	justify-content: flex-end;
+	flex: 50%;
+}
+
+.logo{
+	width: 150px;
+	height: 50px;
+	flex: 50%;
+}
+
+
+.header-info{
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+	margin-left: 8%;
+	margin-bottom: 18%;
+}
+
+h1{
+	margin-bottom: 16px;
+	font-weight: bold;
+}
+
+.title{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 32px;
+	font-size: 36px;
+    font-weight: 800;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	gap: 68px;
+}
+
+.info{
+	max-width: 200px;
+	text-align: center;
+}
+
+.text{
+	padding: 16px;
+}
+
+.quote{
+	background-color: #DED6D4;
+	padding: 68px 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 32px;
+	margin-top: 32px;
+}
+
+.writer{
+	font-weight: 600;
+	margin-top: 16px;
+	margin-left: 45%;
+	padding-top: 16px;
+}
+
+.writing{
+	font-style: italic;
+    font-weight: lighter;
+	font-weight: 36px;
+}
+
+.news{
+	display: flex;
+	flex-flow: row-wrap;
+	background-color: #959BBD;
+	width: 680px;
+	height: 220px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+	gap:32px;
+	padding: 0 150px;
+	margin-bottom: 36px;
+	margin-left: 15%;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+button{
+	background: #959BBD;
+	color: white;
+	border: 1px solid white;
+	border-radius: 8px;
+	text-align: center;
+	width: 110px;
+	padding: 10px;
+	font-weight: bold;
+	margin: 16px;
+}
+
+.footer{
+	height: 52px;
+	background-color: #1F2937;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
