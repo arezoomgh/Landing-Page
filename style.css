@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+@media only screen and (min-width: 600px) {
+	display: flex;
+	flex-direction: row;
+}
+
 body{
 	font-family: Cursive ,Roboto, sans-serif;
 	display: flex;
@@ -11,7 +16,7 @@ body{
 
 ul{
 	list-style: none;
-	gap: 16px;
+	gap: 24px;
 	display: flex;
 	margin: 0;
 	padding: 0;
@@ -19,6 +24,11 @@ ul{
 
 a{
 	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color:#EFF4F8;
 }
 
 img{
@@ -38,18 +48,19 @@ img{
 	height: 800px;
 }
 
-.left-links{
+.top{
 	display: flex;
-	justify-content: flex-end;
-	flex: 50%;
+	align-items: center;
 }
 
 .logo{
 	width: 150px;
 	height: 50px;
-	flex: 50%;
 }
 
+.left-links{
+	margin-left: auto;
+}
 
 .header-info{
 	display: flex;
@@ -138,6 +149,11 @@ button{
 	padding: 10px;
 	font-weight: bold;
 	margin: 16px;
+}
+
+button:hover{
+	width: 120px;
+	height: 40px;
 }
 
 .footer{
